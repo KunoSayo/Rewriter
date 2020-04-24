@@ -21,6 +21,8 @@ repositories {
         name = 'sponge'
         url = 'https://repo.spongepowered.org/maven'
     }
+    //bstats
+    maven { url = 'https://jitpack.io' }
 
     //bukkit
     maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
