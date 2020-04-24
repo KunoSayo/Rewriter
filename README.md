@@ -9,5 +9,7 @@
 * /rewriter write \<path> \[--] --rewriter.write.\<path>
 * /rewriter ls \<path> --rewriter.ls.\<path>
 * /rewriter edit \<rid> \<line> \<text>
+* /rewriter add \<rid> \<line>
+* /rewriter remove \<rid> \<line>
 * /rewriter settings \[\<key> \[\<value>]] --rewriter.settings.key.value
 * /rewriter help
