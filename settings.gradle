@@ -1,0 +1,4 @@
+rootProject.name = 'Rewriter'
+include 'Rewriter-Sponge'
+include 'Rewriter-Common'
+

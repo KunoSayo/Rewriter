@@ -1,0 +1,11 @@
+.idea
+.gradle
+out
+build
+
+#????
+.vs
+.vsc
+release
+debug
+*.iml

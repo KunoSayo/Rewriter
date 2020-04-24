@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.euonmyoji.rewriter'
+
+defaultTasks 'clean', 'build'
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+jar.setEnabled(false)
+
+
+repositories {
+    mavenCentral()
+
+    //sponge
+    maven {
+        name = 'sponge'
+        url = 'https://repo.spongepowered.org/maven'
+    }
+
+    //bukkit
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+
+dependencies {
+}
